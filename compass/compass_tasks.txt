@@ -1,0 +1,17 @@
+# Tareas GUI – MongoDB Compass
+
+1. **Instalación**: descargar e instalar MongoDB Compass.
+2. **Conexión**: pegar la cadena de conexión (local o Atlas).
+3. **Exploración**:
+   - Ver colecciones `users`, `profiles`, `posts`, `tags`, `places`.
+   - Usar **Schema** para inspeccionar tipos.
+4. **Agregaciones**:
+   - Crear un pipeline con `$unwind` + `$group` para contar `tags_embedded`.
+   - Guardar el pipeline como JSON.
+5. **Geoespacial**:
+   - Confirmar índice 2dsphere en `places` (pestaña **Indexes**).
+   - Ejecutar una consulta `$near` desde la pestaña **Documents**.
+6. **Validación**:
+   - Intentar insertar un doc inválido en `posts` (sin `title`) y observar error.
+7. **Export/Import**:
+   - Importar `datasets/places.geojson` en `places` (si lo desea).

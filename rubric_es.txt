@@ -1,0 +1,13 @@
+# Rúbrica de Evaluación — Proyecto Final (20 pts)
+
+| Criterio | Descripción | Puntos |
+|---|---|---|
+| Modelo y relaciones | Correcta aplicación de embebido/referenciado, 1–1, 1–N, N–N con justificación | 5 |
+| Validación de esquema | `$jsonSchema`, `collMod`, validación de existentes, plan de saneamiento | 3 |
+| Consultas relacionadas | Uso de `$lookup` (básico y con pipeline), ejemplos funcionales | 3 |
+| Geoespacial | GeoJSON válido, índice 2dsphere, consultas `$near`, `$geoWithin` | 3 |
+| Agregaciones | ≥3 pipelines útiles con operadores como `$group`, `$unwind`, `$bucket`, `$geoNear` | 3 |
+| Backup & Restore | `mongodump`/`mongorestore` ejecutados con evidencia | 2 |
+| GUI/Atlas | Uso de Compass/Atlas y evidencias claras | 1 |
+
+**Observaciones:** claridad, limpieza de código, naming, reproducibilidad y evidencias pueden sumar o restar hasta ±1 punto.

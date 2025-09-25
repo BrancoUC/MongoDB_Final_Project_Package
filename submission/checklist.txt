@@ -1,0 +1,11 @@
+# Submission Checklist
+
+- [ ] Modelo (PDF/MD) con diagrama simple (embebido vs referenciado).
+- [ ] Scripts 01–06 ejecutados sin errores (adjuntar salida o capturas).
+- [ ] `$lookup` funcionando (evidencias).
+- [ ] Geoespacial: índice + `$near` y `$geoWithin` OK.
+- [ ] Agregaciones: al menos 3 pipelines documentados.
+- [ ] Validación: políticas aplicadas y demo de inválidos.
+- [ ] Backup/Restore: comandos ejecutados (local o Atlas).
+- [ ] Compass/Atlas: evidencias de uso.
+- [ ] README con comandos finales usados por el equipo.
